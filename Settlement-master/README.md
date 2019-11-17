@@ -19,10 +19,10 @@ If a transaction has a reversing transaction, this transaction will be omitted f
 even if the reversing transaction is outside the given time frame.
 
 
-# Endpoint for loading Transactions:localhost:8080/api/v1/settlement
+# Endpoint for loading Transactions:
+localhost:8080/api/v1/settlement
 
 # Endpoint for calculating relative Account balance:
-
 localhost:8080/api/v1/settlement/transactions
 
 Request Body:
